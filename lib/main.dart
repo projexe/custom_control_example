@@ -96,20 +96,15 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             PulsingButton(onPressed: _incrementCounter, icon: Icons.add),
             Text(
-              'You have pushed the button this many times:',
-            ),
-            Text(
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
+            ),
+            Text(
+              'searches',
             ),
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }
